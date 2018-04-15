@@ -9,4 +9,15 @@ function destructivelyAddElementToBeginningofArray(arr, elem) {
   return arr
 }
 
-function addElementToEndOfArray()
+function addElementToEndOfArray(arr, elem) {
+  return [...arr, elem]
+}
+
+function destructivelyAddElementToEndofArray(arr, elem) {
+  arr.push(elem);
+  return arr
+}
+
+function accessElementInArray(arr, ind){
+  return arr[ind]
+}
